@@ -34,6 +34,7 @@ public class PetclinicIntegrationTests {
     @Test
     public void testFindAll() throws Exception {
         vets.findAll();
+        
         vets.findAll(); // served from cache
     }
 }
